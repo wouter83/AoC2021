@@ -29,10 +29,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DepthMeassurment.h">
+    <ClInclude Include="DepthMeassurment.hpp">
       <Filter>Day1</Filter>
     </ClInclude>
-    <ClInclude Include="inputs.h">
+    <ClInclude Include="inputs.hpp">
+      <Filter>inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="input\day1.hpp">
       <Filter>inputs</Filter>
     </ClInclude>
   </ItemGroup>

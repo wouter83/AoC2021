@@ -2,9 +2,9 @@
 //
 
 #include <iostream>
-#include "inputs.h"
+#include "inputs.hpp"
 
-#include "DepthMeassurment.h"
+#include "DepthMeassurment.hpp"
 
 int main()
 {    

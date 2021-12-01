@@ -1,5 +1,5 @@
 #include "pch.h"
-#include "../AoC2021/DepthMeassurment.h"
+#include "../AoC2021/DepthMeassurment.hpp"
 #include "../AoC2021/DepthMeassurment.cpp"
 
 TEST(Day1, increased)

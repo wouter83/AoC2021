@@ -143,8 +143,9 @@
     <ClCompile Include="DepthMeassurment.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DepthMeassurment.h" />
-    <ClInclude Include="inputs.h" />
+    <ClInclude Include="DepthMeassurment.hpp" />
+    <ClInclude Include="inputs.hpp" />
+    <ClInclude Include="input\day1.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
