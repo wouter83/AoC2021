@@ -140,6 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AoC2021.cpp" />
+    <ClCompile Include="DepthMeassurment.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DepthMeassurment.h" />
+    <ClInclude Include="inputs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

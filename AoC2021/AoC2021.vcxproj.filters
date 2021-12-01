@@ -13,10 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Day1">
+      <UniqueIdentifier>{8d1a5f7e-73bd-4561-b64a-8ce43fd43be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inputs">
+      <UniqueIdentifier>{4d4d700f-5123-4d61-93c8-9201087cd568}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AoC2021.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DepthMeassurment.cpp">
+      <Filter>Day1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DepthMeassurment.h">
+      <Filter>Day1</Filter>
+    </ClInclude>
+    <ClInclude Include="inputs.h">
+      <Filter>inputs</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
