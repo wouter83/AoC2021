@@ -19,6 +19,9 @@
     <Filter Include="inputs">
       <UniqueIdentifier>{4d4d700f-5123-4d61-93c8-9201087cd568}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Day2">
+      <UniqueIdentifier>{ba620078-9508-42f7-83b5-0a76714c4abd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AoC2021.cpp">
@@ -26,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="DepthMeassurment.cpp">
       <Filter>Day1</Filter>
+    </ClCompile>
+    <ClCompile Include="SubMarine.cpp">
+      <Filter>Day2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +43,12 @@
     </ClInclude>
     <ClInclude Include="input\day1.hpp">
       <Filter>inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="SubMarine.hpp">
+      <Filter>Day2</Filter>
+    </ClInclude>
+    <ClInclude Include="input\day2.hpp">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
