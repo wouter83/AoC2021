@@ -145,11 +145,13 @@
   <ItemGroup>
     <ClCompile Include="AoC2021.cpp" />
     <ClCompile Include="BinaryDiagnostic.cpp" />
+    <ClCompile Include="BingoBoard.cpp" />
     <ClCompile Include="DepthMeassurment.cpp" />
     <ClCompile Include="SubMarine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryDiagnostic.hpp" />
+    <ClInclude Include="BingoBoard.hpp" />
     <ClInclude Include="DepthMeassurment.hpp" />
     <ClInclude Include="inputs.hpp" />
     <ClInclude Include="input\day1.hpp" />

@@ -36,6 +36,9 @@
     <ClCompile Include="BinaryDiagnostic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BingoBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DepthMeassurment.hpp">
@@ -57,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="BinaryDiagnostic.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BingoBoard.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
