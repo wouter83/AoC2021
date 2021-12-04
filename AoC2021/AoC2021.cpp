@@ -6,6 +6,7 @@
 
 #include "DepthMeassurment.hpp"
 #include "SubMarine.hpp"
+#include "BinaryDiagnostic.hpp"
 
 int main()
 {    
@@ -17,6 +18,7 @@ int main()
         std::cout << "Answer 1: " << dm.increaseCount() << std::endl;
         std::cout << "Answer 2: " << dm.threeSlideCount() << std::endl;
     }
+
     {
         std::cout << "--- Day 02 ---" << std::endl;
         SubMarine sub;
@@ -25,4 +27,14 @@ int main()
         std::cout << "Answer 1: " << sub.HorDepth() << std::endl;
         std::cout << "Answer 2: " << sub.HorDepthAim() << std::endl;
     }
+
+    {
+        std::cout << "--- Day 03 ---" << std::endl;
+        BinaryDiagnostic bd;
+        std::vector<std::string> inp(std::begin(day3Input), std::end(day3Input));
+        bd.input(inp);
+        std::cout << "Answer 1: " << bd.powerConsumption() << std::endl;
+        std::cout << "Answer 2: " << bd.lifeSupportRating() << std::endl;
+    }
 }
+ 

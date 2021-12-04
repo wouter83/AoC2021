@@ -144,14 +144,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AoC2021.cpp" />
+    <ClCompile Include="BinaryDiagnostic.cpp" />
     <ClCompile Include="DepthMeassurment.cpp" />
     <ClCompile Include="SubMarine.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryDiagnostic.hpp" />
     <ClInclude Include="DepthMeassurment.hpp" />
     <ClInclude Include="inputs.hpp" />
     <ClInclude Include="input\day1.hpp" />
     <ClInclude Include="input\day2.hpp" />
+    <ClInclude Include="input\day3.hpp" />
     <ClInclude Include="SubMarine.hpp" />
   </ItemGroup>
   <ItemGroup>

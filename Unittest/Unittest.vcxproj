@@ -45,6 +45,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="unittest_day2.cpp" />
+    <ClCompile Include="unittest_day3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AoC2021\AoC2021.vcxproj">

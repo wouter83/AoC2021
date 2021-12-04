@@ -33,6 +33,9 @@
     <ClCompile Include="SubMarine.cpp">
       <Filter>Day2</Filter>
     </ClCompile>
+    <ClCompile Include="BinaryDiagnostic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DepthMeassurment.hpp">
@@ -48,6 +51,12 @@
       <Filter>Day2</Filter>
     </ClInclude>
     <ClInclude Include="input\day2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input\day3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryDiagnostic.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
