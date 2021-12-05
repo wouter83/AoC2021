@@ -46,6 +46,7 @@
     </ClCompile>
     <ClCompile Include="unittest_day2.cpp" />
     <ClCompile Include="unittest_day3.cpp" />
+    <ClCompile Include="unittest_day4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AoC2021\AoC2021.vcxproj">
