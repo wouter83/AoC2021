@@ -147,17 +147,20 @@
     <ClCompile Include="BinaryDiagnostic.cpp" />
     <ClCompile Include="BingoBoard.cpp" />
     <ClCompile Include="DepthMeassurment.cpp" />
+    <ClCompile Include="HydrothermalVents.cpp" />
     <ClCompile Include="SubMarine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryDiagnostic.hpp" />
     <ClInclude Include="BingoBoard.hpp" />
     <ClInclude Include="DepthMeassurment.hpp" />
+    <ClInclude Include="HydrothermalVents.hpp" />
     <ClInclude Include="inputs.hpp" />
     <ClInclude Include="input\day1.hpp" />
     <ClInclude Include="input\day2.hpp" />
     <ClInclude Include="input\day3.hpp" />
     <ClInclude Include="input\day4.hpp" />
+    <ClInclude Include="input\day5.hpp" />
     <ClInclude Include="SubMarine.hpp" />
   </ItemGroup>
   <ItemGroup>

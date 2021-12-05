@@ -39,6 +39,9 @@
     <ClCompile Include="BingoBoard.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HydrothermalVents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DepthMeassurment.hpp">

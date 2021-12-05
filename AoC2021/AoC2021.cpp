@@ -8,6 +8,7 @@
 #include "SubMarine.hpp"
 #include "BinaryDiagnostic.hpp"
 #include "BingoBoard.hpp"
+#include "HydrothermalVents.hpp"
 
 int main()
 {    
@@ -45,6 +46,19 @@ int main()
         bb.input(inp);
         std::cout << "Answer 1: " << bb.getBingoAnswerBest() << std::endl;
         std::cout << "Answer 2: " << bb.getBingoAnswerWorst() << std::endl;
+    }
+
+    {
+        std::cout << "--- Day 05 ---" << std::endl;
+        HydrothermalVents hv;
+        std::vector<std::string> inp(std::begin(day5Input), std::end(day5Input));
+        hv.input(inp);
+        std::cout << "Answer 1: " << hv.overlap(2) << std::endl;
+        
+        HydrothermalVents hv1;
+        hv1.input(inp,true);
+
+        std::cout << "Answer 2: " << hv1.overlap(2) << std::endl;
     }
 }
  
