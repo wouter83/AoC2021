@@ -7,6 +7,7 @@
 #include "DepthMeassurment.hpp"
 #include "SubMarine.hpp"
 #include "BinaryDiagnostic.hpp"
+#include "BingoBoard.hpp"
 
 int main()
 {    
@@ -35,6 +36,15 @@ int main()
         bd.input(inp);
         std::cout << "Answer 1: " << bd.powerConsumption() << std::endl;
         std::cout << "Answer 2: " << bd.lifeSupportRating() << std::endl;
+    }
+
+    {
+        std::cout << "--- Day 04 ---" << std::endl;
+        BingoBoard bb;
+        std::vector<std::string> inp(std::begin(day4Input), std::end(day4Input));
+        bb.input(inp);
+        std::cout << "Answer 1: " << bb.getBingoAnswerBest() << std::endl;
+        std::cout << "Answer 2: " << bb.getBingoAnswerWorst() << std::endl;
     }
 }
  

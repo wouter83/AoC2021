@@ -3,7 +3,6 @@
 #include "../AoC2021/BingoBoard.hpp"
 #include "../AoC2021/BingoBoard.cpp"
 
-
 TEST(Day4, Bingo)
 {
 	std::string input[] = {
@@ -31,6 +30,6 @@ TEST(Day4, Bingo)
 
 	BingoBoard bb;
 	bb.input(inp);
-	/*EXPECT_EQ(bd.powerConsumption(), 198);
-	EXPECT_EQ(bd.lifeSupportRating(), 230);*/
+	EXPECT_EQ(bb.getBingoAnswerBest(), 4512);
+	EXPECT_EQ(bb.getBingoAnswerWorst(), 1924);
 }
