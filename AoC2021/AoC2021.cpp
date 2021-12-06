@@ -3,15 +3,19 @@
 
 #include <iostream>
 #include "inputs.hpp"
+#include <crtdbg.h>
 
 #include "DepthMeassurment.hpp"
 #include "SubMarine.hpp"
 #include "BinaryDiagnostic.hpp"
 #include "BingoBoard.hpp"
 #include "HydrothermalVents.hpp"
+#include "Lanternfish.hpp"
+
 
 int main()
 {    
+    _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
     {
         std::cout << "--- Day 01 ---" << std::endl;
         DepthMeassurment dm;
@@ -48,7 +52,7 @@ int main()
         std::cout << "Answer 2: " << bb.getBingoAnswerWorst() << std::endl;
     }
 
-    {
+ /*   {
         std::cout << "--- Day 05 ---" << std::endl;
         HydrothermalVents hv;
         std::vector<std::string> inp(std::begin(day5Input), std::end(day5Input));
@@ -59,6 +63,16 @@ int main()
         hv1.input(inp,true);
 
         std::cout << "Answer 2: " << hv1.overlap(2) << std::endl;
+    }*/
+
+    {
+        std::cout << "--- Day 06 ---" << std::endl;
+        LanternfishSwarm LF;
+        std::vector<size_t> inp(std::begin(day6Input), std::end(day6Input));
+        LF.input(inp);
+        std::cout << "Answer 1: " << LF.parse(80) << std::endl;
+        std::cout << "Answer 2: " << LF.parse(256-80) << std::endl;
+
     }
 }
  

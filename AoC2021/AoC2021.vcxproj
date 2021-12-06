@@ -116,7 +116,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRTDBG_MAP_ALLOC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(SolutionDir)Generic;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -148,6 +148,7 @@
     <ClCompile Include="BingoBoard.cpp" />
     <ClCompile Include="DepthMeassurment.cpp" />
     <ClCompile Include="HydrothermalVents.cpp" />
+    <ClCompile Include="Lanternfish.cpp" />
     <ClCompile Include="SubMarine.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -161,6 +162,8 @@
     <ClInclude Include="input\day3.hpp" />
     <ClInclude Include="input\day4.hpp" />
     <ClInclude Include="input\day5.hpp" />
+    <ClInclude Include="input\day6.hpp" />
+    <ClInclude Include="Lanternfish.hpp" />
     <ClInclude Include="SubMarine.hpp" />
   </ItemGroup>
   <ItemGroup>
