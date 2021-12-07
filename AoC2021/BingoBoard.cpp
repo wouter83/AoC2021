@@ -136,4 +136,8 @@ void BingoBoard::input(std::vector<std::string> input)
 			}
 		}
 	}
+	for (auto b : board)
+	{
+		delete b;
+	}
 }

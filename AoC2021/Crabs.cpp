@@ -24,8 +24,7 @@ size_t Crabs::moveToPosition(size_t pos, bool linear)
 			steps = std::abs(steps);
 			if (linear)
 			{
-				float div = (static_cast<float>(steps) / 2) + 0.5f;
-				steps = static_cast<long long>(div * steps);
+				steps = steps * (1 + steps) / 2;
 			}
 			ret += crab.second * steps;
 		}
