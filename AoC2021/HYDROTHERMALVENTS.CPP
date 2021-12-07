@@ -82,22 +82,13 @@ void HydrothermalVents::input(std::vector<std::string> input, bool diagonal)
 		}
 	}
 	
+	//put in a map to count the duplicates
 	for (auto point : lines)
 	{
-		bool found = false;
-		for (auto cloud : mClouds)
+		auto result = countMap.insert(std::pair<Point, int>(point, 1));
+		if (result.second == false)
 		{
-			if (cloud->point == point)
-			{
-				++cloud->strength;
-				found = true;
-			}
-		}
-		if (!found)
-		{
-			OpaqueCloud* OC = new OpaqueCloud(point);
-			OC->strength = 1;
-			mClouds.push_back(OC);
+			result.first->second++;
 		}
 	}
 }
@@ -105,9 +96,9 @@ void HydrothermalVents::input(std::vector<std::string> input, bool diagonal)
 int HydrothermalVents::overlap(int amount)
 {
 	int ret = 0;
-	for (auto cloud : mClouds)
+	for (auto point : countMap)
 	{
-		if (cloud->strength >= amount)
+		if (point.second >= amount)
 			++ret;
 	}
 	return ret;

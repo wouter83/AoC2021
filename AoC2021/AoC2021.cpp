@@ -52,7 +52,7 @@ int main()
         std::cout << "Answer 2: " << bb.getBingoAnswerWorst() << std::endl;
     }
 
- /*   {
+    {
         std::cout << "--- Day 05 ---" << std::endl;
         HydrothermalVents hv;
         std::vector<std::string> inp(std::begin(day5Input), std::end(day5Input));
@@ -63,7 +63,7 @@ int main()
         hv1.input(inp,true);
 
         std::cout << "Answer 2: " << hv1.overlap(2) << std::endl;
-    }*/
+    }
 
     {
         std::cout << "--- Day 06 ---" << std::endl;
