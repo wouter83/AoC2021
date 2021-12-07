@@ -45,6 +45,9 @@
     <ClCompile Include="Lanternfish.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Crabs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DepthMeassurment.hpp">
@@ -84,6 +87,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Lanternfish.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input\day7.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Crabs.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

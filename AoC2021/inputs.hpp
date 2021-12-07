@@ -5,3 +5,4 @@
 #include "input/day4.hpp"
 #include "input/day5.hpp"
 #include "input/day6.hpp"
+#include "input/day7.hpp"

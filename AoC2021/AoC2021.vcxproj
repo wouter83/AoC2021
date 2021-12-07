@@ -146,6 +146,7 @@
     <ClCompile Include="AoC2021.cpp" />
     <ClCompile Include="BinaryDiagnostic.cpp" />
     <ClCompile Include="BingoBoard.cpp" />
+    <ClCompile Include="Crabs.cpp" />
     <ClCompile Include="DepthMeassurment.cpp" />
     <ClCompile Include="HydrothermalVents.cpp" />
     <ClCompile Include="Lanternfish.cpp" />
@@ -154,6 +155,7 @@
   <ItemGroup>
     <ClInclude Include="BinaryDiagnostic.hpp" />
     <ClInclude Include="BingoBoard.hpp" />
+    <ClInclude Include="Crabs.hpp" />
     <ClInclude Include="DepthMeassurment.hpp" />
     <ClInclude Include="HydrothermalVents.hpp" />
     <ClInclude Include="inputs.hpp" />
@@ -163,6 +165,7 @@
     <ClInclude Include="input\day4.hpp" />
     <ClInclude Include="input\day5.hpp" />
     <ClInclude Include="input\day6.hpp" />
+    <ClInclude Include="input\day7.hpp" />
     <ClInclude Include="Lanternfish.hpp" />
     <ClInclude Include="SubMarine.hpp" />
   </ItemGroup>

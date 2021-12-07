@@ -11,7 +11,7 @@
 #include "BingoBoard.hpp"
 #include "HydrothermalVents.hpp"
 #include "Lanternfish.hpp"
-
+#include "Crabs.hpp"
 
 int main()
 {    
@@ -72,7 +72,15 @@ int main()
         LF.input(inp);
         std::cout << "Answer 1: " << LF.parse(80) << std::endl;
         std::cout << "Answer 2: " << LF.parse(256-80) << std::endl;
+    }
 
+    {
+        std::cout << "--- Day 07 ---" << std::endl;
+        Crabs crab;
+        std::vector<size_t> inp(std::begin(day7Input), std::end(day7Input));
+        crab.input(inp);
+        std::cout << "Answer 1: " << crab.getBestFuelCalc() << std::endl;
+        std::cout << "Answer 2: " << crab.getBestFuelCalc(true) << std::endl;
     }
 }
  
