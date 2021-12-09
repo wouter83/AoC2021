@@ -48,6 +48,9 @@
     <ClCompile Include="Crabs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SevenSegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DepthMeassurment.hpp">
@@ -93,6 +96,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Crabs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input\day8.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SevenSegment.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

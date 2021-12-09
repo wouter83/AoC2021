@@ -12,6 +12,7 @@
 #include "HydrothermalVents.hpp"
 #include "Lanternfish.hpp"
 #include "Crabs.hpp"
+#include "SevenSegment.hpp"
 
 int main()
 {    
@@ -81,6 +82,15 @@ int main()
         crab.input(inp);
         std::cout << "Answer 1: " << crab.getBestFuelCalc() << std::endl;
         std::cout << "Answer 2: " << crab.getBestFuelCalc(true) << std::endl;
+    }
+
+    {
+        std::cout << "--- Day 08 ---" << std::endl;
+        SevenSegment seven;
+        std::vector<std::string> inp(std::begin(day8Input), std::end(day8Input));
+        seven.input(inp);
+        std::cout << "Answer 1: " << seven.OneFourSevenEight() << std::endl;
+        std::cout << "Answer 2: " << seven.OutputTotal() << std::endl;
     }
 }
  

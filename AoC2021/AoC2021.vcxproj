@@ -150,6 +150,7 @@
     <ClCompile Include="DepthMeassurment.cpp" />
     <ClCompile Include="HydrothermalVents.cpp" />
     <ClCompile Include="Lanternfish.cpp" />
+    <ClCompile Include="SevenSegment.cpp" />
     <ClCompile Include="SubMarine.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -166,7 +167,9 @@
     <ClInclude Include="input\day5.hpp" />
     <ClInclude Include="input\day6.hpp" />
     <ClInclude Include="input\day7.hpp" />
+    <ClInclude Include="input\day8.hpp" />
     <ClInclude Include="Lanternfish.hpp" />
+    <ClInclude Include="SevenSegment.hpp" />
     <ClInclude Include="SubMarine.hpp" />
   </ItemGroup>
   <ItemGroup>

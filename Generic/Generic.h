@@ -25,5 +25,39 @@ public:
 		}
 		return ret;
 	}
+
+	static bool hasChar(std::string& inp, char kar)
+	{
+		for (auto c : inp)
+		{
+			if (c == kar)
+				return true;
+		}
+		return false;
+	}
+
+	static bool hasChars(std::string& inp, std::string& kars)
+	{
+		bool ret = true;
+		for (auto c : kars)
+		{
+			ret &= hasChar(inp, c);
+		}
+		return ret;
+	}
+
+	// note: exp must be non-negative
+	static std::int_fast64_t pow(int base, int exp)
+	{
+		std::int_fast64_t result{ 1 };
+		while (exp)
+		{
+			if (exp & 1)
+				result *= base;
+			exp >>= 1;
+			base *= base;
+		}
+		return result;
+	}
 };
 
