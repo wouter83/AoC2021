@@ -4,7 +4,7 @@
 #include <algorithm>
 #include <assert.h>
 
-void SevenSegment::input(std::vector<std::string> inp)
+void SevenSegment::input(std::vector<std::string>& inp)
 {
 	for (auto str : inp)
 	{
@@ -13,11 +13,8 @@ void SevenSegment::input(std::vector<std::string> inp)
 		if (inpLine.size() != 2)
 			continue;
 		splitInputValues.push_back(std::make_pair(inpLine[0], inpLine[1]));
-
 	}
-
 }
-
 
 size_t SevenSegment::OneFourSevenEight()
 {

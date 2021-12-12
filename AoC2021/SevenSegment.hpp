@@ -6,7 +6,7 @@
 class SevenSegment
 {
 public:
-	void input(std::vector<std::string> inp);
+	void input(std::vector<std::string>& inp);
 	size_t OneFourSevenEight();
 	size_t OutputTotal();
 

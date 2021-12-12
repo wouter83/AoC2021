@@ -22,7 +22,7 @@ struct Point
 class HydrothermalVents
 {
 public:
-	void input(std::vector<std::string> input, bool diagonal = false);
+	void input(std::vector<std::string>& input, bool diagonal = false);
 	int overlap(int amount);
 
 private:

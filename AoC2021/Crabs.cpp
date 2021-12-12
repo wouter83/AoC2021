@@ -1,7 +1,7 @@
 #include "Crabs.hpp"
 #include <iostream>
 
-void Crabs::input(std::vector<size_t> inp)
+void Crabs::input(std::vector<size_t>& inp)
 {
 	for (auto i : inp)
 	{

@@ -66,7 +66,7 @@ bool bingo_board(std::vector<BingoNumber*>& board)
 	return result;
 }
 
-void BingoBoard::input(std::vector<std::string> input)
+void BingoBoard::input(std::vector<std::string>& input)
 {
 	if (input.size() >= 1)
 	{

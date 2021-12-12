@@ -13,6 +13,7 @@
 #include "Lanternfish.hpp"
 #include "Crabs.hpp"
 #include "SevenSegment.hpp"
+#include "LowPoints.hpp"
 
 int main()
 {    
@@ -91,6 +92,15 @@ int main()
         seven.input(inp);
         std::cout << "Answer 1: " << seven.OneFourSevenEight() << std::endl;
         std::cout << "Answer 2: " << seven.OutputTotal() << std::endl;
+    }
+
+    {
+        std::cout << "--- Day 08 ---" << std::endl;
+        LowPoints lp;
+        std::vector<std::string> inp(std::begin(day9Input), std::end(day9Input));
+        lp.input(inp);
+        std::cout << "Answer 1: " << lp.riskPoints() << std::endl;
+        std::cout << "Answer 2: " << lp.bassins() << std::endl;
     }
 }
  

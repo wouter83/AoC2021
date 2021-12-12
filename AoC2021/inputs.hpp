@@ -7,3 +7,4 @@
 #include "input/day6.hpp"
 #include "input/day7.hpp"
 #include "input/day8.hpp"
+#include "input/day9.hpp"

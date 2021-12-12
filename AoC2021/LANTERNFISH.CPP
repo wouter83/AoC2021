@@ -8,7 +8,7 @@ void makeNewVector(std::vector<size_t>& vec)
 	}
 }
 
-void LanternfishSwarm::input(std::vector<size_t> input)
+void LanternfishSwarm::input(std::vector<size_t>& input)
 {
 	 makeNewVector(AllTheFish);
 	

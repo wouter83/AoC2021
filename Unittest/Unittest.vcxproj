@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -51,6 +51,7 @@
     <ClCompile Include="unittest_day6.cpp" />
     <ClCompile Include="unittest_day7.cpp" />
     <ClCompile Include="unittest_day8.cpp" />
+    <ClCompile Include="unittest_day9.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AoC2021\AoC2021.vcxproj">

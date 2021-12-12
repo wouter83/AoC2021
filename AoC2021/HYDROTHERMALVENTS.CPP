@@ -1,7 +1,7 @@
 #include "HydrothermalVents.hpp"
 #include "Generic.h"
 
-void HydrothermalVents::input(std::vector<std::string> input, bool diagonal)
+void HydrothermalVents::input(std::vector<std::string>& input, bool diagonal)
 {
 	std::vector<Point> lines;
 	for (auto line : input)
